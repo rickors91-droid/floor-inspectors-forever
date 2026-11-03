@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 650" role="img" aria-labelledby="title desc">
+<title id="title">Floor Inspectors Horde fortress</title><desc id="desc">A dark red and gold fantasy fortress beneath a full moon, with crimson Horde banners.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#090b18"/><stop offset=".55" stop-color="#351719"/><stop offset="1" stop-color="#100909"/></linearGradient>
+ <radialGradient id="moon"><stop stop-color="#fff3c9"/><stop offset=".72" stop-color="#d7a85f"/><stop offset="1" stop-color="#a85a35" stop-opacity="0"/></radialGradient>
+ <linearGradient id="stone" x2="0" y2="1"><stop stop-color="#56413a"/><stop offset="1" stop-color="#171011"/></linearGradient>
+ <linearGradient id="banner" x2="0" y2="1"><stop stop-color="#bd3329"/><stop offset="1" stop-color="#5c1116"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1600" height="650" fill="url(#sky)"/>
+<circle cx="1190" cy="154" r="154" fill="url(#moon)"/><circle cx="1190" cy="154" r="78" fill="#ead6a9" opacity=".88"/>
+<g fill="#d3b78b" opacity=".65"><circle cx="170" cy="90" r="2"/><circle cx="360" cy="150" r="2"/><circle cx="510" cy="70" r="1.5"/><circle cx="825" cy="110" r="2"/><circle cx="1440" cy="80" r="2"/><circle cx="1020" cy="48" r="1.5"/></g>
+<path d="M0 410 190 255 330 374 500 220 710 415 900 255 1080 390 1270 230 1600 420V650H0Z" fill="#211316"/>
+<path d="M0 468 205 350 380 430 570 315 760 460 980 330 1170 448 1400 315 1600 435V650H0Z" fill="#130d10"/>
+<ellipse cx="800" cy="490" rx="510" ry="95" fill="#b53b24" opacity=".22" filter="url(#glow)"/>
+<!-- keep and towers -->
+<g fill="url(#stone)" stroke="#100a0b" stroke-width="8" stroke-linejoin="round">
+ <path d="M380 520V300H490V520Z"/><path d="M1110 520V285H1220V520Z"/>
+ <path d="M465 520V250H1135V520Z"/>
+ <path d="M660 520V200H940V520Z"/>
+ <path d="M735 205V155H865V205Z"/>
+ <path d="M340 315V275H530V315Z"/><path d="M1070 300V260H1260V300Z"/>
+ <path d="M610 255V220H990V255Z"/>
+ <path d="M640 202 800 105 960 202Z"/>
+</g>
+<g fill="#0b080a"><path d="M710 520V390Q800 280 890 390V520Z"/><path d="M420 520V385Q435 360 450 385V520Z"/><path d="M1145 520V370Q1160 345 1175 370V520Z"/><path d="M765 285V235H835V285Z"/></g>
+<g fill="#e9a34d"><path d="M750 438q50-35 100 0v20q-50-30-100 0Z" opacity=".75"/><path d="M425 410h22v34h-22z" opacity=".55"/><path d="M1150 398h22v34h-22z" opacity=".55"/></g>
+<!-- battlements -->
+<g fill="#4e3935" stroke="#100a0b" stroke-width="7"><path d="M465 250h45v-28h38v28h50v-28h38v28h50v-28h38v28h50v-28h38v28h50v-28h38v28h50v-28h38v28h50v-28h38v28h45v45H465Z"/><path d="M365 275h38v-30h35v30h38v40H365Z"/><path d="M1120 260h38v-30h35v30h38v40h-111Z"/></g>
+<!-- crimson standards -->
+<g stroke="#10090a" stroke-width="9" stroke-linejoin="round">
+ <path d="M315 140V470M1285 122V468" stroke="#a77b48" stroke-width="13"/>
+ <path d="M324 154h150l-28 82 28 78H324Z" fill="url(#banner)"/>
+ <path d="M1294 136h-150l28 82-28 78h150Z" fill="url(#banner)"/>
+</g>
+<g fill="#e8c17c" opacity=".95">
+ <path d="M385 180l23 26-23 28-23-28Z"/><path d="M1215 162l-23 26 23 28 23-28Z"/>
+ <circle cx="385" cy="208" r="8"/><circle cx="1215" cy="190" r="8"/>
+</g>
+<path d="M0 550Q300 510 520 565T1040 565T1600 540V650H0Z" fill="#090708"/>
+<path d="M0 570Q300 535 520 590T1040 590T1600 565" fill="none" stroke="#8e332a" stroke-width="3" opacity=".6"/>
+</svg>
