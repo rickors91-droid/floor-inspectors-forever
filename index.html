@@ -68,7 +68,7 @@ function tick(){
 }
 tick();setInterval(tick,1000);
 el('copyLink').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);el('copyLink').textContent='Link copied!'}catch{el('copyLink').textContent='Copy from address bar'}});
-el('copyDiscord').addEventListener('click',async()=>{const t='⚔️ **FLOOR INSPECTORS — THE HORDE IS GATHERING** ⚔️\nWoW Forever arrives <t:1793833200:F> (<t:1793833200:R>)\nSharpen your blades. No floor left uninspected.';try{await navigator.clipboard.writeText(t);el('copyDiscord').textContent='Announcement copied!'}catch{el('copyDiscord').textContent='Copy unavailable'}});
+el('copyDiscord').addEventListener('click',async()=>{const t='**Floor Inspectors — WoW Forever**\nLaunch: <t:1793833200:F>\n<t:1793833200:R>\nhttps://rickors91-droid.github.io/floor-inspectors-forever/';try{await navigator.clipboard.writeText(t);el('copyDiscord').textContent='Announcement copied!'}catch{el('copyDiscord').textContent='Copy unavailable'}});
 </script>
 </body>
 </html>
